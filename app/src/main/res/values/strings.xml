@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Utu</string>
+    <string name="home">My Account</string>
+    <string name="News">News</string>
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="user_prompt">Select User Type</string>
+    <string name="service_prompt">Cleaning</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+
+    <string-array name="usertype">
+        <item>Client</item>
+        <item>Service Provider</item>
+    </string-array>
+
+    <string-array name="services">
+        <item>Cleaning</item>
+        <item>Delivery</item>
+        <item>Delivery (Parcels)</item>
+        <item>Delivery (Shopping)</item>
+    </string-array>
+
+    <string-array name="locations">
+        <item>Brookside</item>
+        <item>Buru Buru</item>
+        <item>Dagoretti</item>
+        <item>Dagoretti Corner</item>
+        <item>Dandora</item>
+        <item>Dohnholm</item>
+        <item>Eastleigh</item>
+        <item>Embakasi</item>
+        <item>Garden Estate</item>
+        <item>Gigiri</item>
+        <item>Githurai</item>
+        <item>Grevillea Grove</item>
+        <item>Hamza</item>
+        <item>Hill View Estate</item>
+        <item>Hurlingham</item>
+        <item>Huruma</item>
+        <item>Imara Daima</item>
+        <item>Jogoo Road</item>
+        <item>Kabete</item>
+        <item>Karen</item>
+        <item>Kasarani</item>
+        <item>Kawangware</item>
+        <item>Kayole</item>
+        <item>Kerara Pon</item>
+        <item>Kiambu Road</item>
+        <item>Kileleshwa</item>
+        <item>Kilimani</item>
+        <item>Kingara Road</item>
+        <item>Kinoo</item>
+        <item>Kitengela</item>
+        <item>Kitisuru</item>
+        <item>Komarock</item>
+        <item>Korogocho</item>
+        <item>Kyuna</item>
+        <item>Langata</item>
+        <item>Langata</item>
+        <item>Lavington</item>
+        <item>Limuru</item>
+        <item>Loresho</item>
+        <item>Lower Kabete</item>
+        <item>Machakos</item>
+        <item>Mathare</item>
+        <item>Mlolongo</item>
+        <item>Mlolongo</item>
+        <item>Mombasa Road</item>
+        <item>Mountain View</item>
+        <item>Muthaiga</item>
+        <item>Muthaiga North</item>
+        <item>Nairobi Central</item>
+        <item>Nairobi West</item>
+        <item>Ngara</item>
+        <item>Ngong Road</item>
+        <item>Ngummo</item>
+        <item>Nyari</item>
+        <item>Nyayo</item>
+        <item>Old Muthaiga</item>
+        <item>Parklands</item>
+        <item>Peponi</item>
+        <item>Rhapta Road</item>
+        <item>Riara</item>
+        <item>Riara Road</item>
+        <item>Ridgeways</item>
+        <item>Riruta</item>
+        <item>Riverside</item>
+        <item>Rongai Tassia</item>
+        <item>Rossyln</item>
+        <item>Roysambu</item>
+        <item>Ruai</item>
+        <item>Ruaka</item>
+        <item>Ruiru</item>
+        <item>Runda</item>
+        <item>Satelitte</item>
+        <item>Savannah</item>
+        <item>South B</item>
+        <item>South C</item>
+        <item>Syokimau</item>
+        <item>Thigiri</item>
+        <item>Thika Road</item>
+        <item>Thome</item>
+        <item>Umoja</item>
+        <item>Upper Hill</item>
+        <item>Utawala</item>
+        <item>Uthiru</item>
+        <item>Valley Arcade</item>
+        <item>Waiyaki Way</item>
+        <item>Westlands</item>
+        <item>Woodley</item>
+        <item>Yaya Centre</item>
+        <item>Ngong</item>
+        <item>Kibera</item>
+        <item>Kasarani</item>
+        <item>Kahawa Sukari</item>
+        <item>Kahawa West</item>
+    </string-array>
+</resources>

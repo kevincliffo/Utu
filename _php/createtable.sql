@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS users (
+  UserId int(11) NOT NULL AUTO_INCREMENT,
+  FullName VARCHAR(255) NOT NULL,
+  Email VARCHAR(255) NOT NULL,
+  Password VARCHAR(255) NOT NULL,
+  IDNumber VARCHAR(255) NOT NULL,
+  MobileNumber VARCHAR(255) NOT NULL,
+  Location VARCHAR(255) NOT NULL,
+  Address VARCHAR(255) NOT NULL,
+  ServiceProviding VARCHAR(255) NOT NULL,
+  ProfileImageName VARCHAR(255) DEFAULT NULL,
+  ProfileImageURL VARCHAR(255) DEFAULT NULL,
+  DateOfBirth VARCHAR(255) NOT NULL,
+  UserType int(11) NOT NULL,
+  Token VARCHAR(255) NOT NULL,
+  Activated int(11) NOT NULL,  
+  PRIMARY KEY (UserId))
+
+
+CREATE TABLE serviceproviders(ServiceProviderId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+							  UserId INT(11) NOT NULL,
+							  ServiceProviderName VARCHAR(255) NOT NULL,
+							  ServiceName VARCHAR(255) NOT NULL);
